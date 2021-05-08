@@ -20,17 +20,17 @@ The steps for the neural network analysis are:
 - Data was scaled using StandardScaler
 ### Compiling, Training, and Evaluating the Model
 
-The neural network model has 2 hidden layers and an output layer. The model weights were saved every 5 epochs during the fit operation, and the final model was saved after 100 epochs. []()
+The neural network model has 2 hidden layers and an output layer. The model weights were saved every 5 epochs during the fit operation, and the final model was saved after 100 epochs. [AlphabetSoupCharity.ipynb](https://github.com/Hala-INTJ/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb)
 
-| Layer | No. of Units | Activation Funcation|
+| Layer | No. of Units | Activation Function |
 | --- | --- | --- |
 | First Layer | 80 | relu |
 | Second Layer | 30 | relu|
 | Output Layer | 1 | Sigmoid | 
 
 
-The accuracy after evaluating this model is 72%??
-![]()
+The accuracy after evaluating this model is 72.63%
+![](https://github.com/Hala-INTJ/Neural_Network_Charity_Analysis/blob/main/model_accuracy.png)
 
 ### Attempts to improve the model accuracy to over 75%
 
@@ -38,9 +38,9 @@ Optimization was approached by making small changes to the overall preprocessing
 
 | Attempt | Changes | Accuracy | File | 
 | --- | --- | --- | --- |
-| 1 | Added a third layer and set nodes per layer to 2/3 of inputs plus 1 | 0.7254 | [AlphabetSoupCharity-Optimization_Attempt1]() |
-| 2 | Changed the activation function from relu to tanh | 0.7258 | [AlphabetSoupCharity-Optimization_Attempt2]() |
-| 3 | Binned "ASK_AMT" column and dropped "STATUS" and "SPECIAL_CONSIDERATIONS" columns | 0.7255 | [AlphabetSoupCharity-Optimization_Attempt3]() |
+| 1 | Added a third layer and set nodes per layer to 2/3 of inputs plus 1 | 0.7254 | [AlphabetSoupCharity-Optimization_Attempt1.ipynb](https://github.com/Hala-INTJ/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity-Optimization_Attempt1.ipynb) |
+| 2 | Changed the activation function from relu to tanh | 0.7258 | [AlphabetSoupCharity-Optimization_Attempt2.ipynb](https://github.com/Hala-INTJ/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity-Optimization_Attempt2.ipynb) |
+| 3 | Binned "ASK_AMT" column and dropped "STATUS" and "SPECIAL_CONSIDERATIONS" columns | 0.7255 | [AlphabetSoupCharity-Optimization_Attempt3.ipynb](https://github.com/Hala-INTJ/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity-Optimization_Attempt3.ipynb) |
 
 ## Neural Network Charity Analysis Summary
 
