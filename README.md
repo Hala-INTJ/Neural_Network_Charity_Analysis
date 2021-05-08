@@ -39,7 +39,7 @@ Optimization was approached by making small changes to the overall preprocessing
 | Attempt | Changes | Accuracy | File | 
 | --- | --- | --- | --- |
 | 1 | Added a third layer and set nodes per layer to 2/3 of inputs plus 1 | 0.7254 | [AlphabetSoupCharity-Optimization_Attempt1.ipynb](https://github.com/Hala-INTJ/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity-Optimization_Attempt1.ipynb) |
-| 2 | Changed the activation function from relu to tanh | 0.7258 | [AlphabetSoupCharity-Optimization_Attempt2.ipynb](https://github.com/Hala-INTJ/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity-Optimization_Attempt2.ipynb) |
+| 2 | Changed the activation function from "relu" to "tanh" | 0.7258 | [AlphabetSoupCharity-Optimization_Attempt2.ipynb](https://github.com/Hala-INTJ/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity-Optimization_Attempt2.ipynb) |
 | 3 | Binned "ASK_AMT" column and dropped "STATUS" and "SPECIAL_CONSIDERATIONS" columns | 0.7255 | [AlphabetSoupCharity-Optimization_Attempt3.ipynb](https://github.com/Hala-INTJ/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity-Optimization_Attempt3.ipynb) |
 
 ## Neural Network Charity Analysis Summary
